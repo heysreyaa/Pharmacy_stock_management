@@ -1,0 +1,87 @@
+.sidebar {
+  width: 230px;
+  flex-shrink: 0;
+  background: var(--color-primary-dark);
+  color: #e6fffa;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  margin-bottom: 12px;
+}
+
+.brandIcon {
+  font-size: 1.6rem;
+}
+
+.brandText {
+  font-weight: 700;
+  font-size: 1.02rem;
+  line-height: 1.2;
+}
+
+.brandSub {
+  font-size: 0.68rem;
+  opacity: 0.75;
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0 10px;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #d1fae5;
+  opacity: 0.85;
+}
+
+.navLink:hover {
+  background: rgba(255,255,255,0.08);
+  opacity: 1;
+}
+
+.navLinkActive {
+  background: rgba(255,255,255,0.16);
+  opacity: 1;
+  font-weight: 600;
+}
+
+.badge {
+  margin-left: auto;
+  background: var(--color-danger);
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 999px;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 14px 20px 0;
+  font-size: 0.7rem;
+  opacity: 0.6;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+@media (max-width: 720px) {
+  .sidebar {
+    display: none;
+  }
+}

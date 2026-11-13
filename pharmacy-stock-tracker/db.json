@@ -1,0 +1,115 @@
+
+{
+  "medicines": [
+    {
+      "id": "1",
+      "name": "Paracetamol 500mg",
+      "category": "Pain Relief",
+      "batch": "PCM-24081",
+      "quantity": 120,
+      "minStock": 30,
+      "price": 2.5,
+      "expiry": "2027-08-18",
+      "supplier": "HealthPlus Pharma"
+    },
+    {
+      "id": "2",
+      "name": "Amoxicillin 250mg",
+      "category": "Antibiotic",
+      "batch": "AMX-24032",
+      "quantity": 18,
+      "minStock": 25,
+      "price": 8.75,
+      "expiry": "2026-12-12",
+      "supplier": "Medline Distributors"
+    },
+    {
+      "id": "3",
+      "name": "Cetirizine 10mg",
+      "category": "Allergy",
+      "batch": "CTZ-24117",
+      "quantity": 64,
+      "minStock": 20,
+      "price": 1.8,
+      "expiry": "2026-11-28",
+      "supplier": "Carewell Labs"
+    },
+    {
+      "id": "4",
+      "name": "Vitamin C 500mg",
+      "category": "Supplement",
+      "batch": "VTC-23091",
+      "quantity": 9,
+      "minStock": 20,
+      "price": 4.2,
+      "expiry": "2026-10-30",
+      "supplier": "NutriMed"
+    },
+    {
+      "id": "5",
+      "name": "Omeprazole 20mg",
+      "category": "Gastric Care",
+      "batch": "OMP-24061",
+      "quantity": 82,
+      "minStock": 25,
+      "price": 5.5,
+      "expiry": "2027-04-05",
+      "supplier": "HealthPlus Pharma"
+    },
+    {
+      "id": "6",
+      "name": "Cough Syrup 100ml",
+      "category": "Cold & Cough",
+      "batch": "CS-23111",
+      "quantity": 14,
+      "minStock": 15,
+      "price": 68,
+      "expiry": "2026-11-20",
+      "supplier": "Carewell Labs"
+    },
+    {
+      "id": "7",
+      "name": "Ibuprofen 400mg",
+      "category": "Pain Relief",
+      "batch": "IBU-22009",
+      "quantity": 0,
+      "minStock": 20,
+      "price": 3.25,
+      "expiry": "2026-09-15",
+      "supplier": "Medline Distributors"
+    },
+    {
+      "id": "8",
+      "name": "Azithromycin 500mg",
+      "category": "Antibiotic",
+      "batch": "AZT-25011",
+      "quantity": 55,
+      "minStock": 20,
+      "price": 12.5,
+      "expiry": "2027-06-15",
+      "supplier": "Medline Distributors"
+    },
+    {
+      "id": "9",
+      "name": "ORS Powder",
+      "category": "Supplement",
+      "batch": "ORS-25021",
+      "quantity": 95,
+      "minStock": 25,
+      "price": 18,
+      "expiry": "2027-02-20",
+      "supplier": "NutriMed"
+    },
+    {
+      "id": "10",
+      "name": "Antacid Tablets",
+      "category": "Gastric Care",
+      "batch": "ANT-25015",
+      "quantity": 32,
+      "minStock": 15,
+      "price": 3.5,
+      "expiry": "2026-11-25",
+      "supplier": "HealthPlus Pharma"
+    }
+  ]
+}
